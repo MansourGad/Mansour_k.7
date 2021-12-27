@@ -1,0 +1,211 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#navbar{
+    
+    background-color: rgba(29, 48, 73, 0.76);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.navbar-logo{
+    width: 25%;
+}
+.navbar-logo h2{
+
+padding-left: 10px;
+color: greenyellow;
+padding-top: 5px;
+}
+.navbar-list{
+
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.navbar-list a{
+
+text-decoration: none;
+color: greenyellow;
+transition: all 0.5s;
+padding: 12px 5px;
+}
+.navbar-list a:hover{
+    color: rgba(50, 204, 183, 0.801);
+    background-color: rgba(128, 128, 128, 0.918);
+    border-radius: 10px;
+}
+
+
+
+body{
+    background-color: rgba(0, 162, 255, 0.726);
+}
+
+
+.bg-home{
+    background-image: url(img/IMG_3898.JPG);
+    background-position: center center;
+    
+    background-size: cover;
+   
+}
+.bg-img{
+
+    background-image: linear-gradient(to top, rgba(255,255,255,0.912),rgba(240,239,239,0.488));
+    height: 75%;
+}
+
+.caption{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-direction: column;
+    height: 60%;
+}
+
+.caption h1{
+
+color: rgb(56, 71, 28);
+
+}
+
+.caption button{
+
+border: none;
+background-color:gold ;
+padding: 15px 10px;
+border-radius: 15px;
+transition:all 1s ;
+}
+
+button:hover{
+    background-color: greenyellow;
+    color: grey;
+    
+}
+
+.container{
+margin-top: 10%;
+display: flex;
+justify-content: space-around;
+margin-bottom: 70px;
+
+}
+.home2{
+width: 30%;
+
+}
+.home2 img{
+
+width: 100%;
+
+}
+
+
+.home2 h3{
+
+text-align: center;
+background-color: rgba(255, 255, 254, 0.733);
+border-radius: 15px;
+}
+
+
+.home2 p{
+
+    color: rgba(0, 0, 0, 0.719);
+
+}
+
+h1{
+    color:rgba(2, 2, 2, 0.74) ;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card{
+background-color:rgba(255, 255, 255, 0.521);
+font-family: sans-serif;
+width: 400px;
+border-radius: 20px;
+padding: 25px;
+}
+
+
+
+.card .shopping-cart{
+    width: 40px;
+   
+    position: relative;
+    margin: 20px;
+    
+    padding: 20px;
+    border-radius: 50px;
+}
+
+
+.card .card-img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: -1px;
+}
+
+
+.card h3{
+color: rgba(0, 0, 0, 0.884);
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.877);
+}
+.card{
+
+    width: 30%;
+    margin: 0px 5px;
+}
+
+.card img{
+width: 100%;
+}
+.card-ty{
+
+display: flex;
+justify-content: space-around;
+
+}
+.card button{
+
+background-color:#f5f3ff;
+border: 2px solid #8d80ffc0;
+border-radius: 10px;
+padding: 15px 20px;
+font-size: 20px;
+color: #9580ff;
+outline: none;
+text-transform:capitalize ;
+transition: all 1s;
+
+}
+button:hover{
+
+background-color: #9580ff;
+color: black;
+
+}

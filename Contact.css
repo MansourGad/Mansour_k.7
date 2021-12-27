@@ -1,0 +1,164 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#navbar{
+    
+    background-color: rgba(29, 48, 73, 0.76);
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-logo{
+    width: 25%;
+}
+.navbar-logo h2{
+
+padding-left: 10px;
+color: greenyellow;
+padding-top: 5px;
+}
+.navbar-list{
+
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.navbar-list a{
+
+text-decoration: none;
+color: greenyellow;
+transition: all 0.5s;
+padding: 12px 5px;
+}
+.navbar-list a:hover{
+    color: rgba(50, 204, 183, 0.801);
+    background-color: rgba(128, 128, 128, 0.918);
+    border-radius: 10px;
+}
+
+
+/* CONTACT */
+ body, html {
+
+background-color:rgb(255, 255, 255);
+
+}
+
+form{
+    padding: 16px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+
+.segment{
+    padding: 32px 0;
+    text-align: center;
+    color: #babecc;
+}
+
+
+button, input{
+    border: 0;
+    font-size: 16px;
+    padding: 16px;
+    /* text-shadow: 1px 1px 0 #fff; */
+    outline: 0;
+    border-radius: 320px;
+    background-color:rgba(255, 255, 255, 0.479);
+    font-family: cursive;
+}
+
+
+.body3{
+    background-image:linear-gradient(to top left,
+#CFCBD2,#CB98ED,#8B63DA,#3C21B7);
+    
+    
+    
+}
+
+
+label{
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+
+}
+
+input{
+    margin-right: 8px;
+    
+    width: 100%;
+    
+    transition:all 0.2s ease-in-out ;
+    appearance: none;
+    -webkit-appearance: none;
+}
+input:focus{
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+button{
+    color: #3b4e96;
+    font-weight: bold;
+transition: box-shadow 0.9s ;
+}
+
+button:hover{
+
+box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+
+}
+
+
+button:active{
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button .icon{
+    margin-right: 8px;
+}
+button.unit{
+    line-height: 0;
+    height: 48px;
+    justify-content: center;
+    margin: 0 8px;
+    border-radius: 8px;
+    width: 48px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 19.2px;
+}
+
+button.unit .icon{
+    margin-right: 0;
+}
+
+button.red{
+    display: block;
+    width: 100%;
+    color: rgba(128, 128, 128, 0.705);
+
+}
+
+.input-group{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+.input-group label{
+margin: 0;
+flex: 1;
+}
+
+
+
